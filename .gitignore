@@ -1,0 +1,68 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Conda and virtual environments
+env/
+venv/
+mystreamenv/
+.venv/
+ENV/
+*.env
+*.venv
+*.virtualenv
+*.ipynb_checkpoints
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit cache and configuration files
+.streamlit/
+**/__pycache__/
+
+# Model and training data
+*.h5
+*.hdf5
+*.ckpt
+*.joblib
+*.pkl
+*.sav
+
+# Logs and temporary files
+*.log
+*.dat
+*.pkl
+*.pickle
+nohup.out
+*.pid
+*.gz
+*.bz2
+*.xz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.cache/
+*.bak
+*.old
+*.swp
+
+# GitHub actions/cache
+.github/
+
+# VSCode
+.vscode/
+
+# Streamlit specific cache
+.streamlit/cache/
+.streamlit/secrets.toml

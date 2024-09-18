@@ -1,0 +1,5 @@
+# pyngrok==4.1.1
+streamlit-drawable-canvas
+streamlit
+tensorflow
+numpy
