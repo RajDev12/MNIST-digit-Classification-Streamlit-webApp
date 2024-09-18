@@ -3,4 +3,4 @@ streamlit-drawable-canvas
 streamlit
 tensorflow
 numpy
-opencv
+opencv-python
