@@ -5,3 +5,4 @@ tensorflow
 numpy
 opencv-python
 opencv-contrib-python
+cv2
