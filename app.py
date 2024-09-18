@@ -3,7 +3,13 @@ from streamlit_drawable_canvas import st_canvas
 from tensorflow import keras
 import cv2
 import numpy as np
-model_new = keras.models.load_model('mnist.hdf5')
+import os
+
+
+# Set working directory and model path
+working_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(working_dir, 'mnist.hdf5')
+model_new = keras.models.load_model(model_path)
 
 st.title("MNIST Digit Recognizer")
 
