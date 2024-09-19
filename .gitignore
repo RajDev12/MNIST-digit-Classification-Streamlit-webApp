@@ -26,7 +26,7 @@ ENV/
 
 # Model and training data
 *.h5
-*.hdf5
+# *.hdf5
 *.ckpt
 *.joblib
 *.pkl
